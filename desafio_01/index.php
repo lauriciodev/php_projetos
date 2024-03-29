@@ -7,22 +7,48 @@
 </head>
 <body>
   <?php 
- // definindo  retorno da data em portugues;
+  //desafio
+  //exibir quantos dias faltam pra sabado
+  
   setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
 
   date_default_timezone_set('America/Sao_Paulo');
 
-  echo strftime('%A, %d de %B de %Y', strtotime('today'));
+  $diaSemana =  strftime('%A');
+
+  function showDay($dia){
+      //esta função vai retornar a quantidade de dias que faltam para sabado;
+
+      if($dia == "domingo"){
+        return  6;
+      }
+
+      if($dia == "segunda"){
+        return  5;
+      }
+
+      if($dia == "terça"){
+        return  4;
+      }
+
+      if($dia == "quarta"){
+        return  3;
+      }
+
+      if($dia == "quinta"){
+        return  2;
+      }
+
+      if($dia == "sexta"){
+        return  1;
+      }
+  }
+  $daysToSun = showDay($diaSemana);
+  $currentMounth = strftime("%B");
+  echo $currentMounth;
   echo "<br>";
-   $dataHoras = date("h:i:s a");
-   // h horas no formato 12 horas 
+  echo "faltam $daysToSun dias pra sábado";
 
-   $dataDias = date("D:M:Y");
-   // os parametros em maiusculo exibe o nome por completo
-
-   echo $dataHoras;
-   echo "<br>";
-   echo $dataDias;
   ?>
   
 </body>
