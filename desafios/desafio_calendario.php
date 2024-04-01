@@ -66,25 +66,14 @@
      
 
       if(isset($semana[$i])){
+   
         if($currentDay == $semana[$i]){
           echo "<td style='color:white; background-color:#000;'>{$semana[$i]}</td>";
         
         }else{
-          if($semana[$i] == 0){
-            echo "<td style='color:red;'>{$semana[$i]}</td>";
-
-          }else{
-            echo "<td style='background-color:#3c1c3c; color:white;'>{$semana[$i]}</td>";
-
-          }
-
-        }
-
-      
-      }else{
-        echo "<td style='background-color:#3c1c3c; color:white;'></td>";
+          echo "<td style='color:white; background-color:#005;'>{$semana[$i]}</td>";
       }
-
+    }
    
     }
         echo "</tr>";
