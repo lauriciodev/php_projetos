@@ -15,4 +15,6 @@ include_once "teste1.php";
 include_once "teste1.php";
 
 // o mesmo vale para o require_once
+//lauricio
+
 ?>
