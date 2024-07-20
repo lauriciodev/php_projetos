@@ -8,4 +8,4 @@ function soma($a, $b){
 
 $result = soma(1,1);
 
-echo "$result";
+echo $result;

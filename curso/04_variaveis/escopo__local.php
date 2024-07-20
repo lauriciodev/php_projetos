@@ -8,6 +8,8 @@ function myGlobal(){
   echo "$myVarLoc teste";
 }
 
+echo $myVarLoc; //variavel local erro
+
 myGlobal();
 
 // echo "$myVarLoc";

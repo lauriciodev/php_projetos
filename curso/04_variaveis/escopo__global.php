@@ -10,6 +10,9 @@ function mostraGlobal(){
   echo "global $globalFunction";
 }
 
-
+/* function tesar(){
+  echo "glob $globalFunction ";
+  
+} */
 
 mostraGlobal();

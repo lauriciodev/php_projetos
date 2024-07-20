@@ -5,7 +5,6 @@ function incrementValue(){
  static $number = 0;
   $number++;
 
-
   echo "valor: $number <br>";
 }
 
@@ -14,4 +13,3 @@ incrementValue();
 incrementValue();
 incrementValue();
 incrementValue();
-
