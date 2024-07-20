@@ -3,29 +3,32 @@
 //as chaves podem ser passadas de forma dinamicas, quando não passadas é atribuidos valores padroes para os valors inseridos
 
 //passando chave e valor 
-
+//array associativo
 $nomes = ["nome1" => "lauricio", "nome2" => "mariana", "nome3" => "sandra" ];
 
-//acessando valores por chave;
-
-echo $nomes["nome1"];
-//lauricio
-
-
-echo " <br>===================== <br>";
-//passando apenas o valor
-$produtos = ["caderno", "energetico", "cadeiras"];
-//acessando valores por chave padrao
-
-echo $produtos[0];
-//caderno
-
-//função que exibe array
-
-echo " <br>===================== <br>";
-
+echo "exibindo um array associativo <br>";
 print_r($nomes);
+echo "<br>";
 
-echo " <br>===================== <br>";
+//array por [];
+$produtos = array(["carro","aviao","mesa"]);
 
+echo  "exibindo array por [] <br>";
 print_r($produtos);
+echo "<br>";
+//array multidimensional associativo
+$usuarios = [
+  ["nome" => "lauricxio", "idade" => 22 ],
+  ["nome" => "maj", "idade" => 21 ]
+];
+
+//obs: um array multidomencional tambem pode ser cridao usando a function array como no exemplo a seguir
+//   array([
+//     [],
+//    [],
+//   []
+//   ])
+
+
+echo "exibindo um array multidimensional <br>";
+print_r($usuarios);
