@@ -9,6 +9,3 @@ require __DIR__ . "/../externo/teste.php";
 
 
 <h4>Funcionandoooo</h4>
-
-
-
