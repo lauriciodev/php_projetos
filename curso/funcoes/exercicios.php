@@ -58,3 +58,15 @@ function sumEvenNumbers($numberEnd) {
 }
 
 sumEvenNumbers(6);
+
+echo "<br>";
+echo "Exercicio 03 <br>";
+
+//missão definir em uma função uma cor padrao que sera passada como parametro, caso nao seja passada deve ser definida como vermelha
+
+
+function defColor($myColor = "vermelha"){
+  echo " a cor passada é: $myColor";
+}
+
+defColor();
