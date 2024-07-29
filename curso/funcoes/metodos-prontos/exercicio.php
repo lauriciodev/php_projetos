@@ -18,5 +18,5 @@ function numberVolws($text){
   
 }
 
-numberVolws("teste de mdigitação");
+numberVolws("teste de digitação");
 ?>
