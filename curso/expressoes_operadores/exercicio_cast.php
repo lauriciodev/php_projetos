@@ -10,6 +10,8 @@ if($stringInt != "testando"){
   echo $stringInt;
   echo "<br>";
 }
+ 
+//lauricio és o mior programador do mundo!
 
 $floatInt = (int) 13.9;
 

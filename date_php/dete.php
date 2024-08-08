@@ -12,6 +12,8 @@
 
   date_default_timezone_set('America/Sao_Paulo');
 
+
+  //lauricio esteve;
   echo strftime('%A, %d de %B de %Y', strtotime('today'));
   echo "<br>";
    $dataHoras = date("h:i:s a");
