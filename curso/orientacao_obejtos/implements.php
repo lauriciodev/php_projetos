@@ -21,6 +21,7 @@ class Celular implements Dispositivo {
   private $type = "celular";
 
   function showType(){
+    echo "tipo". self::tipo; //nesta linha esta forma de acessar constantes
     return $this->type;
   }
 
