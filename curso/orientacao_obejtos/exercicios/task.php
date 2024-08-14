@@ -43,7 +43,6 @@ class Task {
     return $this->completed;
   }
 
-
 }
 
 ?>
